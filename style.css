@@ -73,19 +73,27 @@ body .header {
   font-size: 32px;
   color: white;
 }
-.projects {
+
+.work div {
+  border: 1px, black;
+  padding: 10px;
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  flex-direction: row;
+  flex-direction: column;
 }
 
-.projectexample img {
-  justify-content: space-around;
-  width: 300px;
-  height: 300px;
-  flex: 0, 1, auto;
+.work-1 {
+  flex: 3;
 }
+.work-2 {
+  flex: 1;
+}
+.work-3 {
+  flex: 1;
+}
+.work-4 {
+  flex: 1;
+}
+
 .footer {
   display: flex;
   flex-wrap: wrap;
