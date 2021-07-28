@@ -1,27 +1,59 @@
+/* :root {
+  --light: (seagreen);
+} */
+
 * {
   box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+  padding: 0px;
+  margin: 8px;
 }
 
 body {
-  background-color: ivory;
-}
-
-.header {
-  padding: 20px;
-  background-color: lightseagreen;
+  background-color: rgb(238, 238, 227);
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
+body .header {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px;
+  background-color: rgb(66, 126, 58);
+  justify-content: space-between;
+  align-items: center;
+}
+
 .header h1 {
-  display: inline-block;
-  font-size: 50px;
+  display: flex;
+  font-size: 16px;
 }
 
 .header nav ul {
+  display: inline-flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.section1 {
   display: flex;
-  justify-content: flex-end;
-  list-style-type: none;
+  justify-content: center;
+  background-image: url(https://images.unsplash.com/photo-1588392382834-a891154bca4d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1055&q=80);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.section1 h2 {
+  text-align: center;
+  color: white;
+}
+
+.section1 img {
+  width: 300px;
+  height: 300px;
+  border-radius: 155px;
+  border: 2px solid rgb(66, 126, 58);
+  padding: 20px;
 }
