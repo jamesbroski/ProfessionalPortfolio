@@ -74,24 +74,29 @@ body .header {
   color: white;
 }
 
-.work div {
-  border: 1px, black;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
+article {
+  text-align: center;
+  font-size: 32px;
 }
 
-.work-1 {
-  flex: 3;
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
-.work-2 {
-  flex: 1;
+
+.cards img {
+  margin: 10px;
+  max-height: 300px;
+  max-width: 300px;
+  border: black, 4px;
 }
-.work-3 {
-  flex: 1;
-}
-.work-4 {
-  flex: 1;
+
+.cards img:hover {
+  opacity: 25%;
+  transition: 1.5s;
 }
 
 .footer {
