@@ -1,6 +1,6 @@
-/* :root {
-  --light: (seagreen);
-} */
+:root {
+  --light: (rgb(66, 126, 58));
+}
 
 * {
   box-sizing: border-box;
@@ -21,6 +21,7 @@ body .header {
   background-color: rgb(66, 126, 58);
   justify-content: space-between;
   align-items: center;
+  color: white;
 }
 
 .header h1 {
@@ -56,4 +57,54 @@ body .header {
   border-radius: 155px;
   border: 2px solid rgb(66, 126, 58);
   padding: 20px;
+}
+
+.section2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(66, 126, 58);
+  color: white;
+}
+
+.section2 h1 {
+  text-align: center;
+  font-size: 32px;
+  color: white;
+}
+.projects {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.projectexample img {
+  justify-content: space-around;
+  width: 300px;
+  height: 300px;
+  flex: 0, 1, auto;
+}
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(66, 126, 58);
+  color: white;
+}
+
+.footer h1 {
+  text-align: center;
+  font-size: 32px;
+  color: white;
+}
+
+.footer nav ul {
+  display: inline-flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
