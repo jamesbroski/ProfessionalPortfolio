@@ -99,6 +99,12 @@ article {
   transition: 1.5s;
 }
 
+.description {
+  display: flex;
+  justify-content: space-evenly;
+  font-weight: bolder;
+}
+
 .footer {
   display: flex;
   flex-wrap: wrap;
