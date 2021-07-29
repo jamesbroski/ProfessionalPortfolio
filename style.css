@@ -121,3 +121,39 @@ article {
   margin: 0;
   padding: 0;
 }
+
+@media screen and (max-width: 992px) {
+  head {
+    background-color: blanchedalmond;
+  }
+  body {
+    background-color: blanchedalmond;
+  }
+  footer {
+    background-color: blanchedalmond;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  head {
+    background-color: blanchedalmond;
+  }
+  body {
+    background-color: blanchedalmond;
+  }
+  footer {
+    background-color: blanchedalmond;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  head {
+    background-color: blanchedalmond;
+  }
+  body {
+    background-color: blanchedalmond;
+  }
+  footer {
+    background-color: blanchedalmond;
+  }
+}
