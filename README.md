@@ -13,4 +13,4 @@ The user should expect to see:
 
 Below, the user can see a snapshot of what to expect when visiting my Professional Portfolio:
 
-http://path/to/ProfessionalPortfolioSnapshot/img.jpeg "Professional Portfolio Snapshot
+*insert snapshot here, needs work* "Professional Portfolio Snapshot"
