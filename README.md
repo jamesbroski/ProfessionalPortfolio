@@ -11,6 +11,8 @@ The user should expect to see:
 4. A carefully thought out layout to help ease the user's experience and have a natural flow of the page.
 5. Lastly, a contact section where potential employers and developers could reach me in the future! (Also placeholders)
 
+Link to deployed application here: https://jamesbroski.github.io/ProfessionalPortfolio/
+
 Below, the user can see a snapshot of what to expect when visiting my Professional Portfolio:
 
-*insert snapshot here, needs work* "Professional Portfolio Snapshot"
+*changes in process - more to come!*
